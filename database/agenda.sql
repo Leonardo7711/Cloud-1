@@ -11,7 +11,7 @@ CREATE DATABASE IF NOT EXISTS agenda
 
 -- 2. Crear un usuario exclusivo para la aplicación
 --    (cambie la contraseña y actualice config.php)
-CREATE USER IF NOT EXISTS 'agenda_user'@'10.0.%' IDENTIFIED BY 'Agenda2026!';
+CREATE USER IF NOT EXISTS 'agenda_user'@'10.0.%' IDENTIFIED BY 'Sigifredo7711.';
 GRANT SELECT, INSERT, UPDATE, DELETE ON agenda.* TO 'agenda_user'@'10.0.%';
 FLUSH PRIVILEGES;
 
